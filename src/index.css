@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+
+body {
+	background-color: #E3FF2F;
+}
+
+.border {
+	border: #888686 thin solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+a.link {
+	font-family: 'Lekton', sans-serif;
+	font-weight: bolder 700;
+	color: #000000;
+}
+
+form 	{
+	display: flex;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	flex-direction: column;
+	padding-left: 3em; }
+input, textarea { margin-bottom: .5em; }
+
+#reset	{	
+	width: 50%;
+	font-family: 'Lekton', sans-serif;
+}
+
+#submit	{
+	width: 50%;
+	font-family: 'Lekton', sans-serif;
+}
+
+#title_box a:link {
+	text-decoration: none;
+	font-family: 'Lekton', sans-serif;
+	font-weight: bolder 700;
+	color: #000000;
+}
+
+label {
+	font-family: 'Lekton', sans-serif;
+	padding: 1em 0em 0em 0em;
+}
+
+#myBtn {
+		  display: none; /* Hidden by default */
+		  position: fixed; /* Fixed/sticky position */
+		  bottom: 6em; /* Place the button at the bottom of the page */
+		 right: 3em; /*  - Place the button 30px from the right */
+		  z-index: 99; /* Make sure it does not overlap */
+		  border: none; /* Remove borders */
+		  outline: none; /* Remove outline */
+		  background-color: #FF00FF; /* Set a background color */
+			
+			
+		  color: white; /* Text color */
+		  cursor: pointer; /* Add a mouse pointer on hover */
+		  padding: 15px; /* Some padding */
+		  border-radius: 10px; /* Rounded corners */
+		  font-size: 18px; /* Increase font size */
+		}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+li {
+	font-family: 'Lekton', sans-serif;
+	font-weight: bolder 700;
+}
+
+.border {
+	border-width: .5em;
+	border-color: #666666;
+	
+}
+
+.top_header{
+	background-color: #504D4D;
+	padding: 1em 0em;
+}
+
+.project_header{
+	background-color: #504D4D;
+	padding: 1em 0em;
+}
+
+.top_footer{
+	background-color: #504D4D;
+	padding: 1em 0em;
+}
+
+.footer{
+	background-color: #504D4D;
+	padding: 1em 0em;
+}
+
+.header_text{
+	color: #FFFFFF;
+	font-size: .75em;
+}
+
+.row-proj_alt{
+	background-color: #E6E6E6;
+	padding: 1em 1em;
+}
+
+.row-nav{
+	background-color: #E6E6E6;
+	padding: 0em;
+}
+
+.row-proj_main{
+	background-color: #FFFFFF;
+	padding: 1em 1em;
+}
+
+.home_headline{
+	background-color: #FFFFFF;
+	height: auto;	
+	padding: 0em;
+	margin: auto;
+	/*background-image: url(./images/sb_background.jpg);*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: top 50px right 10px;;
+	background-size: 1500px;
+}
+
+.res_headline{
+	background-color: #FFFFFF;
+	height: auto;	
+	padding: 0em;
+	margin: auto;
+	/*background-image: url(./images/gr_background.jpg);*/
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: top 50px right 10px;
+	background-size: 1500px;
+}
+
+.con_headline {
+	background-color: #FFFFFF;
+	height: auto;	
+	padding: 0em;
+	margin: auto;
+	/*background-image: url(./images/co_background.jpg);*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top 80px right 10px;
+	background-size: 1500px;
+}
+
+.headline_img {
+	height: 150px;
+	margin: auto;
+}
+
+
+h1.headline {
+	font-family: 'Lekton', sans-serif;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+	margin: auto;
+}
+
+h1, h2, h4, h5 {
+	font-family: 'Lekton', sans-serif;
+	font-weight: bolder 700;
+}
+
+h3 {
+	font-family: 'Lekton', sans-serif;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+h1.url {
+	font-family: 'Lekton', sans-serif;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 2em;
+	padding: .5em 0em 0em 0em;
+}
+
+h1.info {
+	font-family: 'Lekton', sans-serif;
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size:.75em;
+	text-align: left;
+	padding: .5em 0em 0em 0em;
+}
+
+p {
+	font-family: 'Lekton', sans-serif;
+}
+
+.row {
+	padding: 1em 1em;
+}
+
+.sub{
+	padding: 0em 1em;
+}
+
+.section_title
+{
+	background-color: #D8D7D7;
+	padding: 1em 1em .5em 1em;
+}
+
+.img_buffer{
+	margin: 1em;
+}	
+
+.list-group-horizontal
+{
+	width: 50%;
+}

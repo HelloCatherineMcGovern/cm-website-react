@@ -1,17 +1,22 @@
-import React, {Component} from 'react'
-import Header from './Header'
-import Nav from './Nav'
+import { BrowserRouter } from 'react-router-dom'
+
+import Footer from './Footer'
+import HomePage from './HomePage'
 
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container">
-        <Header />
-		<Nav />
+export default function App() {
+
+    return ( 
+      
+      <div>
+   
+      <h1>Hello World</h1>
+      <HomePage />
+        <Footer />
+     
+    
+
+  
       </div>
-    )
+    );
   }
-}
-
-export default App
